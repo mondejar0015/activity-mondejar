@@ -1,4 +1,4 @@
-fbody {
+body {
     display: block;
     margin: 8px;
     background-image: url(falling.gif);
@@ -17,6 +17,11 @@ form#userForm {
     padding-right: 20px;
     width: fit-content;
     border-radius: 20px;
+}
+
+label {
+    color: black;
+    font-family: cursive;
 }
 
 h1 {
