@@ -1,0 +1,59 @@
+fbody {
+    display: block;
+    margin: 8px;
+    background-image: url(falling.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form#userForm {
+    background-color: rgba(188, 83, 204, 0.485);
+    margin: auto;
+    text-align: center;
+    box-shadow: 0px 0px 12px 0px rgb(0, 0, 0);
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    width: fit-content;
+    border-radius: 20px;
+}
+
+h1 {
+    text-align: center;
+    display: block;
+    font-size: 2em;
+    font-family: cursive;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+h2 {
+    text-align: center;
+    font-family: cursive;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+pre#jsonOutput {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 400px;
+    padding: 10px;
+    max-height: 300px;
+    overflow: auto;
+    white-space: pre-wrap;
+    margin: 20px auto;
+   
+}
